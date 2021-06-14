@@ -1,5 +1,14 @@
-#rightNav {
-    display: flexbox;
-    flex-direction: row-reverse;
-    color: blue;
+body {
+    display: grid;
+    grid-template-columns: [firstc] 100px [secondc] 100px [autom] auto [thirdc] 100px [forthc] 100px ;
+    grid-template-rows: [firstr] 25% [autor] auto [secondr] 25%;
+
 }
+.logos {
+    display: grid;
+    
+}
+
+.rightNav {
+    display: grid;
+    grid-column: span [forthc];
