@@ -1,0 +1,5 @@
+#rightNav {
+    display: flexbox;
+    flex-direction: row-reverse;
+    color: blue;
+}
